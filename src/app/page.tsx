@@ -80,29 +80,37 @@ export default function Home() {
             Explore our other insurance comparison tools:
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+            <a href="https://puppyinsurance.quest" className="block p-3 rounded-lg bg-white dark:bg-gray-800 hover:shadow-md transition-shadow">
+              <span className="font-medium text-gray-900 dark:text-white">Puppy Insurance</span>
+              <span className="block text-sm text-gray-500 dark:text-gray-400">Pet insurance for your new puppy</span>
+            </a>
+            <a href="https://yogateacherinsurance.quest" className="block p-3 rounded-lg bg-white dark:bg-gray-800 hover:shadow-md transition-shadow">
+              <span className="font-medium text-gray-900 dark:text-white">Yoga Teacher Insurance</span>
+              <span className="block text-sm text-gray-500 dark:text-gray-400">Professional indemnity for instructors</span>
+            </a>
+            <a href="https://tractorinsurance.quest" className="block p-3 rounded-lg bg-white dark:bg-gray-800 hover:shadow-md transition-shadow">
+              <span className="font-medium text-gray-900 dark:text-white">Tractor Insurance</span>
+              <span className="block text-sm text-gray-500 dark:text-gray-400">Insurance for farm machinery</span>
+            </a>
+            <a href="https://mobilityscooterinsurance.quest" className="block p-3 rounded-lg bg-white dark:bg-gray-800 hover:shadow-md transition-shadow">
+              <span className="font-medium text-gray-900 dark:text-white">Mobility Scooter Insurance</span>
+              <span className="block text-sm text-gray-500 dark:text-gray-400">Protect your mobility device</span>
+            </a>
+            <a href="https://insulinpumpinsurance.quest" className="block p-3 rounded-lg bg-white dark:bg-gray-800 hover:shadow-md transition-shadow">
+              <span className="font-medium text-gray-900 dark:text-white">Insulin Pump Insurance</span>
+              <span className="block text-sm text-gray-500 dark:text-gray-400">Medical device coverage</span>
+            </a>
+            <a href="https://villagefeteinsurance.quest" className="block p-3 rounded-lg bg-white dark:bg-gray-800 hover:shadow-md transition-shadow">
+              <span className="font-medium text-gray-900 dark:text-white">Village Fete Insurance</span>
+              <span className="block text-sm text-gray-500 dark:text-gray-400">Event liability coverage</span>
+            </a>
             <a href="https://motorinsurance.quest" className="block p-3 rounded-lg bg-white dark:bg-gray-800 hover:shadow-md transition-shadow">
               <span className="font-medium text-gray-900 dark:text-white">Motor Insurance</span>
               <span className="block text-sm text-gray-500 dark:text-gray-400">Compare car insurance quotes</span>
             </a>
-            <a href="https://healthinsurance.quest" className="block p-3 rounded-lg bg-white dark:bg-gray-800 hover:shadow-md transition-shadow">
-              <span className="font-medium text-gray-900 dark:text-white">Health Insurance</span>
-              <span className="block text-sm text-gray-500 dark:text-gray-400">Compare private health insurance</span>
-            </a>
             <a href="https://travelinsurance.quest" className="block p-3 rounded-lg bg-white dark:bg-gray-800 hover:shadow-md transition-shadow">
               <span className="font-medium text-gray-900 dark:text-white">Travel Insurance</span>
-              <span className="block text-sm text-gray-500 dark:text-gray-400">Compare travel insurance policies</span>
-            </a>
-            <a href="https://bikeinsurance.quest" className="block p-3 rounded-lg bg-white dark:bg-gray-800 hover:shadow-md transition-shadow">
-              <span className="font-medium text-gray-900 dark:text-white">Bike Insurance</span>
-              <span className="block text-sm text-gray-500 dark:text-gray-400">Protect your bicycle from theft and damage</span>
-            </a>
-            <a href="https://mortgagecalculator.quest" className="block p-3 rounded-lg bg-white dark:bg-gray-800 hover:shadow-md transition-shadow">
-              <span className="font-medium text-gray-900 dark:text-white">Mortgage Calculator</span>
-              <span className="block text-sm text-gray-500 dark:text-gray-400">Calculate monthly mortgage payments</span>
-            </a>
-            <a href="https://energybillcalculator.quest" className="block p-3 rounded-lg bg-white dark:bg-gray-800 hover:shadow-md transition-shadow">
-              <span className="font-medium text-gray-900 dark:text-white">Energy Bill Calculator</span>
-              <span className="block text-sm text-gray-500 dark:text-gray-400">Estimate your energy costs</span>
+              <span className="block text-sm text-gray-500 dark:text-gray-400">Holiday & trip protection</span>
             </a>
           </div>
         </section>
