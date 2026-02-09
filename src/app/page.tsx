@@ -72,6 +72,41 @@ export default function Home() {
         </section>
         </article>
 
+        <section className="mt-12 p-6 rounded-lg" style={{ background: "color-mix(in srgb, var(--accent) 5%, transparent)" }}>
+          <h2 className="text-xl font-bold mb-4 text-gray-900 dark:text-gray-100">
+            Related UK Insurance
+          </h2>
+          <p className="text-sm text-gray-600 dark:text-gray-400 mb-4">
+            Explore our other insurance comparison tools:
+          </p>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+            <a href="https://motorinsurance.quest" className="block p-3 rounded-lg bg-white dark:bg-gray-800 hover:shadow-md transition-shadow">
+              <span className="font-medium text-gray-900 dark:text-white">Motor Insurance</span>
+              <span className="block text-sm text-gray-500 dark:text-gray-400">Compare car insurance quotes</span>
+            </a>
+            <a href="https://healthinsurance.quest" className="block p-3 rounded-lg bg-white dark:bg-gray-800 hover:shadow-md transition-shadow">
+              <span className="font-medium text-gray-900 dark:text-white">Health Insurance</span>
+              <span className="block text-sm text-gray-500 dark:text-gray-400">Compare private health insurance</span>
+            </a>
+            <a href="https://travelinsurance.quest" className="block p-3 rounded-lg bg-white dark:bg-gray-800 hover:shadow-md transition-shadow">
+              <span className="font-medium text-gray-900 dark:text-white">Travel Insurance</span>
+              <span className="block text-sm text-gray-500 dark:text-gray-400">Compare travel insurance policies</span>
+            </a>
+            <a href="https://bikeinsurance.quest" className="block p-3 rounded-lg bg-white dark:bg-gray-800 hover:shadow-md transition-shadow">
+              <span className="font-medium text-gray-900 dark:text-white">Bike Insurance</span>
+              <span className="block text-sm text-gray-500 dark:text-gray-400">Protect your bicycle from theft and damage</span>
+            </a>
+            <a href="https://mortgagecalculator.quest" className="block p-3 rounded-lg bg-white dark:bg-gray-800 hover:shadow-md transition-shadow">
+              <span className="font-medium text-gray-900 dark:text-white">Mortgage Calculator</span>
+              <span className="block text-sm text-gray-500 dark:text-gray-400">Calculate monthly mortgage payments</span>
+            </a>
+            <a href="https://energybillcalculator.quest" className="block p-3 rounded-lg bg-white dark:bg-gray-800 hover:shadow-md transition-shadow">
+              <span className="font-medium text-gray-900 dark:text-white">Energy Bill Calculator</span>
+              <span className="block text-sm text-gray-500 dark:text-gray-400">Estimate your energy costs</span>
+            </a>
+          </div>
+        </section>
+
         <footer className="mt-16 pt-8 border-t border-gray-200 dark:border-gray-700 text-center">
           <div className="h-1 w-24 mx-auto rounded mb-6" style={{ background: "var(--accent)" }} />
           <p className="text-sm text-gray-400">
