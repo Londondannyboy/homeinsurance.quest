@@ -112,6 +112,14 @@ export default function Home() {
               <span className="font-medium text-gray-900 dark:text-white">Travel Insurance</span>
               <span className="block text-sm text-gray-500 dark:text-gray-400">Holiday & trip protection</span>
             </a>
+            <a href="https://relocation.quest" className="block p-3 rounded-lg bg-white dark:bg-gray-800 hover:shadow-md transition-shadow">
+              <span className="font-medium text-gray-900 dark:text-white">Relocation Advice</span>
+              <span className="block text-sm text-gray-500 dark:text-gray-400">AI-powered relocation planning</span>
+            </a>
+            <a href="https://miam.quest" className="block p-3 rounded-lg bg-white dark:bg-gray-800 hover:shadow-md transition-shadow">
+              <span className="font-medium text-gray-900 dark:text-white">MIAM Certificate</span>
+              <span className="block text-sm text-gray-500 dark:text-gray-400">Family mediation preparation</span>
+            </a>
           </div>
         </section>
 
